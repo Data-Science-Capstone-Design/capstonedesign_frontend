@@ -19,6 +19,7 @@
             android:textColor="#ffffff"
             android:background="@color/teal_200"
             android:text="지원제도 및 정책"
+            android:id="@+id/Policy"
             android:layout_marginTop="10dp"
             android:layout_gravity="center" />
 
@@ -30,6 +31,7 @@
             android:textColor="#ffffff"
             android:background="@color/teal_200"
             android:text="QR코드로 결제"
+            android:id="@+id/QrPay"
             android:layout_marginTop="20dp"
             android:layout_gravity="center" />
 
@@ -41,6 +43,7 @@
             android:textColor="#ffffff"
             android:background="@color/teal_200"
             android:text="상품권 등록"
+            android:id="@+id/PinRegister"
             android:layout_marginTop="20dp"
             android:layout_gravity="center" />
 
@@ -56,7 +59,7 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:padding="10dp"
-            android:id="@+id/Paylist"
+            android:id="@+id/PayList"
             android:drawableStart="@drawable/ic_baseline_list_24"
             android:drawableLeft="@drawable/ic_baseline_list_24"
             android:layout_marginTop="250dp"
@@ -69,9 +72,9 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:padding="10dp"
-            android:id="@+id/Mypage"
-            android:drawableStart="@drawable/ic_baseline_person_24"
-            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:id="@+id/MyPage"
+            android:drawableStart="@drawable/ic_baseline_person_24_1"
+            android:drawableLeft="@drawable/ic_baseline_person_24_1"
             android:layout_marginTop="250dp"
             android:layout_marginLeft="30dp"
             android:background="@color/teal_200"/>
